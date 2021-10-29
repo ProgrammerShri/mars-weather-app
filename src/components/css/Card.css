@@ -1,0 +1,33 @@
+.card {
+  text-align: center;
+  width: 8em;
+  height: 10em;
+  background-color: #79797973;
+  margin: 0.5em;
+}
+
+.card__sol {
+  font-size: 1.3rem;
+  margin-top: 1em;
+}
+.card__day {
+  font-weight: 300;
+  margin-top: 0.2em;
+}
+.card__line {
+  border-bottom: 1px solid white;
+  margin: 1em;
+}
+
+.card__high {
+}
+
+.card__low {
+  margin-top: 0.2em;
+}
+@media (min-width: 1254px) {
+  .card {
+    width: 11em;
+    margin: 1em;
+  }
+}
